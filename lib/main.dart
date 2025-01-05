@@ -16,7 +16,7 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   final db = AppDbService();
-  await db.resetDatabase();
+  // await db.resetDatabase();
   runApp(WalletTrackApp(database: db));
 }
 
