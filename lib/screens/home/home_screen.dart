@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    _resetDatabase();
+    // _resetDatabase();
   }
 
   Future<void> _resetDatabase() async {
