@@ -62,6 +62,7 @@ pubspec.lock
 
 # API Keys and Secrets
 lib/config/api_config.dart
+lib/firebase_options.dart
 .env
 
 # macOS specific
